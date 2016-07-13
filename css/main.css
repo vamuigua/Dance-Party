@@ -3,6 +3,7 @@ body{
     width:100%;
     height: 500%;
     font-family: "Lato", sans-serif;
+    background-color:rgba(0,0,0,0.8);
 }
 
 /*Side cover Bar*/
@@ -45,4 +46,24 @@ body{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+/*Icons*/
+.icons{
+    float: right;
+    margin: 15px 5px;
+    font-size: 30px;
+    background-color: ;
+    border: 2px solid crimson;
+    border-radius: 40px;
+}
+
+.icons a{
+    color:#fff;
+    margin: 0 15px;    
+}
+
+/*Icons Hover*/
+. icons a .fb:hover{
+    color:blue;
 }
