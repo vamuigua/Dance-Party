@@ -3,7 +3,8 @@ body{
     width:100%;
     height: 500%;
     font-family: "Lato", sans-serif;
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0,0,0,0.9);
+    z-index: 1;
 }
 
 /*Side cover Bar*/
@@ -63,7 +64,101 @@ body{
     margin: 0 15px;    
 }
 
-/*Icons Hover*/
-. icons a .fb:hover{
-    color:blue;
+/*HEADER*/
+.HEAD{
+   width: 100%;
+   height:10%; 
+    z-index: 2;
+}
+
+.HEAD h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: crimson;
+    font-size:50px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.HEAD h2{
+    font-size:30px;
+    color:#FFC600;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+/*Disco Buttons*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:700);
+*,
+*:before,
+*:after {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+     display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto Mono', sans-serif;
+  background-color: #15171E;
+}
+
+.discoBtn {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+.discoBtn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 3px solid transparent;
+  -webkit-transition: border-width 0.25s;
+  transition: border-width 0.25s;
+  -webkit-border-image: -webkit-linear-gradient(315deg, #A0038B, #FD0000, #FDFD00);
+       -o-border-image: linear-gradient(135deg, #A0038B, #FD0000, #FDFD00);
+          border-image: linear-gradient(135deg, #A0038B, #FD0000, #FDFD00);
+  border-image-slice: 1;
+  pointer-events: none;
+  -webkit-filter: hue-rotate(0deg);
+          filter: hue-rotate(0deg);
+  -webkit-animation: 0.5s linear 0s infinite normal both paused hueShift;
+          animation: 0.5s linear 0s infinite normal both paused hueShift;
+}
+.discoBtn:hover:before {
+  border-width: 7px;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes hueShift {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hueShift {
+  100% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
 }
