@@ -110,4 +110,15 @@ body{
 }
 
 /*3 Col img*/
-.row 
+.texting h2{
+    color:crimson;
+    font-family: 'Lobster', cursive;
+    text-align:left;
+}
+
+.texting p{
+    color: #fff;
+}
+
+
+/*Dancing man*/
