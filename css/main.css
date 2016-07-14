@@ -5,46 +5,8 @@ body{
     font-family: "Lato", sans-serif;
     background-color:rgba(0,0,0,0.9);
     z-index: 1;
-     background:#ec6a38;
-  -webkit-animation:colour 3s linear infinite;
-	-moz-animation:colour 3s linear infinite;
-  
-}
-@-webkit-keyframes colour{
-	0%{
-		background:pink
-	}
-
-	40%{
-		background:red
-	}
-
-	80%{
-		background:orange
-	}
-
-	100%{
-		background:blue
-	}
-
-}
-
-@-moz-keyframes colour{
-	0%{
-		background:#ec6a38
-	}
-
-	40%{
-		background:#ec4038
-	}
-
-	80%{
-		background:#ec9138
-	}
-
-	100%{
-		background:#ec6a38
-	}
+    /*background-image: url(/img/dancer4.jpg);
+    background-size:cover;*/ 
 }
 
 /*Side cover Bar*/

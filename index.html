@@ -26,7 +26,9 @@
      
     <!--Ionicons link-->
     <link href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
-    
+    <!--Animate.css-->
+       <link rel="stylesheet" href="animate.min.css">
+       <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
     <!--Local Ionicons-->
     <link rel="stylesheet" href="css/ionicons-2.0.1/css/ionicons.min.css">
     
@@ -46,13 +48,13 @@
 </div>
     <span style="width:160px;font-size:40px;cursor:pointer;font-family: 'Lobster', cursive;position:fixed;background-color:crimson;color:#fff;" onclick="openNav()">☰ MENU</span>
         <div class="icons">
-        <a class="fb" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-         <a class="twit" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-         <a class="pin" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
+        <a class="animated fadeInRightBig" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+         <a class="fadeInRightBig" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+         <a class="fadeInRightBig" href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
             </div>
     </section>
     <header class="HEAD">
-        <h1>FLEX-OUT</h1>
+        <h1 class="animated bounceInDown">FLEX-OUT</h1>
         <h2>“You've gotta dance like there's nobody watching,
 Love like you'll never be hurt,
 Sing like there's nobody listening,
@@ -62,28 +64,33 @@ And live like it's heaven on earth.”
         <div class="row" style="text-align:center; 
     margin-top:50px;line-height:100px;
     width: 100%;">
-  <div class="medium-4 columns"><a href="#">DISCO</a></div>
-  <div class="medium-4 columns"><a href="#">FUNKY</a></div>
-  <div class="medium-4 columns"><a href="#">FUN-CITY</a></div>        
+  <div class="medium-4 columns"><a href="#" class="animated fadeInLeftBig">DISCO</a></div>
+  <div class="medium-4 columns"><a href="#" class="animated fadeInLeftBig">FUNKY</a></div>
+  <div class="medium-4 columns"><a href="#" class="animated fadeInLeftBig">FUN-CITY</a></div>        
 </div>
     </header>
     <!--Text With Image One-->
-    <div class="row">
-  <div class="medium-6 columns"><img src="img/hands.jpg"></div>
-  <div class="medium-6 columns">
-      <p>Lorem ipsum dolor sit amet, no has atqui impedit vivendo, augue ceteros repudiandae vel ei, vel insolens pertinacia eu. Pro et ipsum laudem laboramus, nec simul congue gloriatur cu. Aliquam definitiones no cum. Veritus volumus eam te, audire legendos senserit sed in, ut lorem iriure sed.
+    <div class="row" style="background-color:;padding-top:15px;">
+  <div class="medium-6 columns"><img  src="img/hands.jpg"></div>
+  <div class="medium-6 columns" style="color:#fff">
+      <h2 style="color:crimson;font-family:'Lobster', cursive;" class="animated fadeInRightBig">ABOUT US</h2>
+      <p class="animated fadeInUpBig">Lorem ipsum dolor sit amet, no has atqui impedit vivendo, augue ceteros repudiandae vel ei, vel insolens pertinacia eu. Pro et ipsum laudem laboramus, nec simul congue gloriatur cu. Aliquam definitiones no cum. Veritus volumus eam te, audire legendos senserit sed in, ut lorem iriure sed.
 
 Summo congue repudiandae id ius, vitae intellegat necessitatibus ut vim. Ad his nonumes officiis, ne per deleniti adipiscing. Graeco numquam ex vel, qui eu aliquam scriptorem, cu autem omittantur mea. Cu graece expetendis ius. Sed nostrud appareat quaerendum ex. Et copiosae vituperatoribus mel, cum ea illud nominati. Lorem utroque verterem pri at, probo decore accumsan an vis, qui ei pericula dissentiet.Lorem ipsum dolor sit amet, no has atqui impedit vivendo, augue ceteros repudiandae vel ei, vel insolens pertinacia eu. Pro et ipsum laudem laboramus, nec simul congue gloriatur cu. Aliquam definitiones no cum. Veritus volumus eam te, audire legendos senserit sed in, ut lorem iriure sed.
 
-Summo congue repudiandae id ius, vitae intellegat necessitatibus ut vim. Ad his nonumes officiis, ne per deleniti adipiscing. Graeco numquam ex vel, qui eu aliquam scriptorem, cu autem omittantur mea. Cu graece expetendis ius. Sed nostrud appareat quaerendum ex. Et copiosae vituperatoribus mel, cum ea illud nominati. Lorem utroque verterem pri at, probo decore.</p>
+Summo congue repudiandae id ius, vitae intellegat necessitatibus ut vim. Ad his nonumes officiis, ne per deleniti adipiscing.  </p>
         </div>
 </div>
     <!--Section with 3 imgs-->
-    <div class="row">
+    <div class="row" style="background-color:crimson;height:260px;padding-top:15px;">
   <div class="medium-4 columns"><img src="img/dancer5.jpg"></div>
   <div class="medium-4 columns"><img src="img/dancer7.jpg"></div>
         <div class="medium-4 columns"><img src="img/dancer8.jpg"></div>
     </div>
+    
+    <!--Dancer-->
+
+
     <!--Side Nav scripts-->
     <script>
 function openNav() {
